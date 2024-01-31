@@ -1,6 +1,507 @@
-body{
-    background-color: aqua;
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: poppins;
+    color: white;
+    box-sizing: border-box;
 }
-h1{
-    color: red;
+
+html,
+body {
+    font-size: 10px;
+
+    background-color: black;
+
+
 }
+hr{
+    height: 8px;
+    background-color: rgb(43, 43, 43);
+    border: none;
+}
+.page1{
+    height: 700px;
+    background-image: url(images/netflixbanner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    padding: 24px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 180px;
+}
+.navbar .navlogo img{
+    height: 55px;
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+select option{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+select{
+   background-color: rgba(58, 58, 58, 0.3);
+    height: 35px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 3px;
+}
+.navbar .navitems button{
+    font-size: 15px;
+    font-weight: 500;
+    height: 34px;
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 21, 21);
+    transition: all ease 0.3s;
+}
+.navbar .navitems button:hover{
+    background-color: rgb(216, 0, 0);
+}
+.page1content{
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page1content h1{
+    height: 144px;
+    width: 70vw;
+    font-size: 50px;
+    text-align: center;
+}
+.page1content p{
+    height: 50px;
+    width: 70vw;
+    font-size: 24px;
+    text-align: center;
+}
+.login p{
+    height: 77px;
+    width: 70vw;
+    font-size: 24px;
+    text-align: center;
+}
+.login input{
+    height: 56px;
+    width: 368px;
+    background-color: rgba(58, 58, 58, 0.5);
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 3px;
+}
+::placeholder{
+    font-size: 15px;
+    font-weight: 500;
+    transition: all ease 0.1s;
+    color: rgb(177, 177, 177);
+}
+input{
+    padding-left:20px ;
+}
+input:focus::placeholder{
+    position: relative;
+    bottom: 10px;
+    font-size: 12px;
+}
+ .login1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 05px;
+}
+ button{
+    font-size: 15px;
+    font-weight: 500;
+    height: 56px;
+    width: 180px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(252, 0, 0);
+    transition: all ease 0.3s;
+}
+.login button:hover{
+    background-color: rgb(219, 0, 0);
+}
+
+
+#heading{
+    font-size: 45px;
+}
+#paragraph{
+    font-size: 20px;
+}
+.page2{
+    min-height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.page2 .right img{
+    background-image: url(images/tvbanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.page2 .left{
+    width: 35vw;
+}
+.page3{
+    min-height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.page3 .left{
+    width: 35vw;
+}
+
+.page4{
+    min-height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.page4 .left{
+    width: 35vw;
+}
+.page4 .right img{
+    height: 60vh;
+    width: 35vw;
+}
+.page5{
+    min-height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.page5 .left{
+    width: 35vw;
+}
+.page6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: auto;
+    width: 100vw;
+    padding: 40px;
+}
+
+.page6 span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.page6 .accordian {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.page6 .accordian li {
+    list-style: none;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    margin-top: 10px;
+}
+
+.page6 .accordian li label {
+    height: 80px;
+    width: 80vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    
+}
+
+.page6 .accordian li label:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+.accordian label+input[type="radio"] {
+    display: none;
+}
+
+.accordian ul li .content {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 20px;
+    list-style: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.accordian label+input[type="radio"]:checked+.content {
+    max-height: 500px;
+}
+
+.page6 .login{
+    padding-top: 40px;
+}
+.footer span{
+    color: rgb(222, 222, 222);
+}
+.footer{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+    gap: 100px;
+}
+.footer .one{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .one .first,.second,.third,.fourth{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer .two{
+display: flex;
+flex-direction: column;
+}
+.footer span{
+    font-size: 14px;
+
+}
+
+
+
+
+
+@media (max-width:1279px) {
+
+    .navbar {
+        padding: 24px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+margin: 0%;
+    }
+
+#heading{
+    font-size: 26px;
+    min-width: 50vw;
+}
+#paragraph{
+    font-size: 13px;
+    min-width: 50vw;
+}
+    .page1content h1 {
+        height: 144px;
+        width: 92vw;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .page1content p {
+        height: 50px;
+        width: 70vw;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .page2{
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+    .page2 .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90vw;
+    }
+    .page3{
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+    .page3 .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90vw;
+    }
+    .page4{
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+    .page4 .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90vw;
+    }
+    .page5{
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+    .page5 .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90vw;
+    }
+    .page1content p {
+        height:60px;
+    }
+    .login p{
+        font-size: 15px;
+    }
+    .page6 .accordian li label {
+        font-size: 18px;
+        width: 95vw;
+    }
+    .page6 .accordian li .content{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:750px) {
+    .page2 .right img,.page3 .right img,.page4 .right img,.page5 .right img{
+        width: 70vw;
+    }
+    .page1{
+        height: 500px;
+        width: 100vw;
+    }
+    .page1content{
+        height: 55vh;
+        text-align: center;
+    }
+    .page1content h1{
+        height: 100px;
+        font-size: 30px;
+        width: 90vw;
+    }
+    .page1content p{
+        height: 50px;
+    }
+    .page1content .login p{
+      text-align: center;
+    }
+}
+
+@media (max-width:600px) {
+    .login p{
+        width: 93vw;
+    }
+    .page1 .navlogo img{
+        width: 30vw;
+        height: 6vh;
+    }
+    .page1 .navitems select{
+        width: 20vw;
+    }
+    .page1content .login p {
+        text-align: center;
+        width: 90vw;
+    }
+    .navbar .navitems .dropdown {
+        gap: 10px;
+    }
+     input{
+        width: 80vw;
+    }
+    .page1content h1{
+        height: auto;
+    }
+    .page1content p{
+        font-size: 11px;
+        height: auto;
+    }
+    .page6 .login {
+        padding-top: 10px;
+    }
+    .login1{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px) {
+   .login input{
+      width: 90vw;
+    }
+ .page4  .right img{
+    width: 250px!important;
+    height: 250px!important;
+ }
+ .page1content h1 {
+    height: 100px;
+    font-size: 21px;
+    width: 90vw;
+}
+
+}
+
+@media (max-height:2181px)  {
+    .page4 .right img {
+        height: 480px;
+        width: 480px;
+    }
+}
+
+
+@media (max-width:900px) {
+    .footer{
+        height: 118vh;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 10px;
+        gap: 10px;
+        align-items: flex-start;
+    }
+}
+

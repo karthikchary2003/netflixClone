@@ -1,12 +1,190 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>netflix clone by karthik chary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="png" href="images/netflixpicture.png">
+  <!-- css link  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- fonts  -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- bootstrap icons      -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 <body>
-    <h1>hello world</h1>
+
+<div class="container">
+  <div class="page1">
+    <div class="navbar">
+      <div class="navlogo">
+        <img src="images/netflixlogo.png" alt="">
+      </div>
+      <div class="navitems">
+        <div class="dropdown">
+          <select name="dropdown" id=" dropdown">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+          </select>
+          <button>Sign In</button>
+        </div>
+      </div>
+    </div>
+    <div class="page1content">
+      <h1>The biggest Indian hits. The best Indian stories. All streaming here.</h1>
+      <p>Watch anywhere. Cancel anytime.</p>
+      <div class="login">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+       <div class="login1">
+        <input type="gmail" placeholder="Email address">
+        <button>Get Started <i class="bi bi-chevron-right"></i></button>
+       </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="page2">
+    <div class="left">
+      <h1 id="heading">Enjoy on your TV</h1>
+      <p id="paragraph">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+    </div>
+    <div class="right">
+      <img src="images/tv.png" alt="">
+    </div>
+  </div>
+  <hr>
+  <div class="page3">
+    <div class="left">
+      <h1 id="heading">Download your shows to watch offline</h1>
+      <p id="paragraph">Save your favourites easily and always have something to watch.</p>
+    </div>
+    <div class="right">
+      <img src="images/mobile.jpg" alt="">
+    </div>
+  </div>
+  <hr>
+  <div class="page4">
+    <div class="left">
+      <h1 id="heading">Watch everywhere</h1>
+      <p id="paragraph">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+    </div>
+    <div class="right">
+      <img src="images/tvtabpc.jpg" alt="">
+    </div>
+  </div>
+  <hr>
+  <div class="page5">
+    <div class="left">
+      <h1 id="heading">Create profiles for kids</h1>
+      <p id="paragraph">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+    </div>
+    <div class="right">
+      <img src="images/children.png" alt="">
+    </div>
+  </div>
+  <hr>
+  <div class="page6">
+    <span id="heading">Frequently Asked Questions</span>
+            <div class="accordian">
+                <ul>
+                    <li>
+                        <label for="first">What is Netflix?<span><i class="bi bi-chevron-down"id="spin"></i></span></label>
+                        <input type="radio" name="accordian" id="first">
+                        <div class="content">
+                          Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+
+                        </div>
+                    </li>
+                    <li>
+                        <label for="second">How much does Netflix cost?<span><i
+                                    class="bi bi-chevron-down"></i></span></label>
+                        <input type="radio" name="accordian" id="second">
+                        <div class="content">
+                          Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+                        </div>
+                    </li>
+                    <li>
+                        <label for="third">This page created by? <span><i class="bi bi-chevron-down"></i></span></label>
+                        <input type="radio" name="accordian" id="third">
+                        <div class="content">
+                            <span id="green"><a href=""> Challapuram karthik chary</a></span> an engineering student from information
+                            technology
+                        </div>
+                    </li>
+                    <li>
+                        <label for="fourth">Languages used to create this website <span><i
+                                    class="bi bi-chevron-down"></i></span></label>
+                        <input type="radio" name="accordian" id="fourth">
+                        <div class="content">
+                            HTML- Hyper text markup language
+                            <br>
+                            CSS- Cascading Style Sheet
+                        </div>
+                    </li>
+
+                </ul>
+  </div>
+  <div class="login">
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+   <div class="login1">
+    <input type="gmail" placeholder="Email address">
+    <button>Get Started <i class="bi bi-chevron-right"></i></button>
+   </div>
+</div>
+</div>
+<hr>
+<div class="footer">
+  
+    <div class="one">
+      <div class="first">
+        <span>FAQ</span>
+        <span>Investor Relations</span>
+        <span>Privacy</span>
+        <span> <div class="dropdown">
+          <select name="dropdown" id=" dropdown">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+          </select>
+        </div></span>
+      </div>
+    </div>
+    <div class="second">
+      <span>
+        Help Centre</span>
+      <span>
+        Media Centre</span>
+      <span>
+        Jobs</span>
+      <span>
+        Terms of Use</span>
+    </div>
+    <div class="third">
+      <span>Privacy</span>
+      <span>Corporate Information</span>
+      <span>Speed Test</span>
+      <span>Only on Netflix</span>
+    </div>
+    <div class="fourth">
+      <span>Cookie Preferences</span>
+      <span>
+        Contact Us</span>
+      <span>Privacy</span>
+      <span>Legal Notices</span>
+    </div>
+  
+  
+  </div>
+
+</div>
+</div>
+</div>
+
 </body>
+
 </html>
